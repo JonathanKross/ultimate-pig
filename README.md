@@ -1,18 +1,16 @@
 # Ultimate Pig
-This project analyzes the game of pig solitaire, a single-player dice game. A player has 7 turns in which to score the most number of points possible.
+This project analyzes the game of pig solitaire, a single-player die game.
 
 ### Game Rules
-* If the player rolls a 1, all points are lost and the turn is over
+* A player has 7 turns in which to score the most number of points possible
 * The player must roll at least once, but may roll as many times as they wish within a single turn
+* If the player rolls a 1, all points are lost and the turn is over
 * Each turn's score is the sum of their rolls (except if they roll a 1, in which case that turn is worth a total of 0 points)
 * The player may choose to hold their current turn score at any time after a non-1 die roll
 
 ## Objective
 Find the best strategy for this game, the "ultimate pig" player.
 
-
-## To View This Notebook
-Just click the `ultimate-pig.ipynb` file above.
 
 ## To Run This Notebook
 #### System Requirements / Installation
